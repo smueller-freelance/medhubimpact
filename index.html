@@ -235,65 +235,17 @@
     <section class="contact" id="contact">
         <div class="container">
             <h2 class="section-title orange">Contact Us</h2>
+            <p class="section-subtitle">Ready to transform your healthcare technology? Get in touch with us today.</p>
 
-            <div class="contact-content">
-                <div class="contact-form-wrapper">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="firstName">First Name *</label>
-                                <input type="text" id="firstName" name="firstName" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="lastName">Last Name *</label>
-                                <input type="text" id="lastName" name="lastName" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email">E-mail *</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="company">Company Name</label>
-                            <input type="text" id="company" name="company">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="message">Message *</label>
-                            <textarea id="message" name="message" rows="5" required
-                                placeholder="Tell us about your project requirements, timeline, and any specific challenges you're facing."></textarea>
-                        </div>
-
-                        <p class="form-disclaimer">
-                            By pressing the button "Send Message" I consent that I have read and accepted
-                            <a href="#privacy">Privacy Policy</a>.
-                        </p>
-
-                        <button type="submit" class="cta-button">Send Message</button>
-                    </form>
-                </div>
-
-                <div class="contact-process">
-                    <div class="process-step">
-                        <div class="process-number gray">1</div>
-                        <p>We will send a short email confirming your that we successfully received your request and
-                            started working on it.</p>
-                    </div>
-
-                    <div class="process-step">
-                        <div class="process-number orange">2</div>
-                        <p>Our team analyzes your requirements and we create initial project estimates or solutions
-                            based on needs.</p>
-                    </div>
-
-                    <div class="process-step">
-                        <div class="process-number gray">3</div>
-                        <p>We will schedule a call to discuss your project proposal and work with you within 3 business
-                            days.</p>
-                    </div>
-                </div>
+            <div class="contact-simple">
+                <a href="mailto:info@medhubimpact.com" class="cta-button email-button">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.5rem;">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Email Us at info@medhubimpact.com
+                </a>
             </div>
 
             <div class="social-links">
@@ -345,13 +297,6 @@
                     button.querySelector('.faq-icon').textContent = '−';
                 }
             });
-        });
-
-        // Contact form submission
-        document.getElementById('contactForm').addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Thank you for your message! We will get back to you soon.');
-            e.target.reset();
         });
     </script>
 </body>
