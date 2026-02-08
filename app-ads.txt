@@ -1,1 +1,2 @@
+# app-ads.txt file for MED HUB IMPACT apps
 google.com, pub-8351829961414221, DIRECT, f08c47fec0942fa0
